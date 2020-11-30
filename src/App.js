@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import AppointmentForm from "./components/AppointmentForm";
+import ViewAppointments from "./components/ViewAppointments";
+import "./App.scss";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [showAppointmentForm, setShowAppointmentForm] = useState(true);
+
+    return (
+        <div className="App">
+            <header className="App-header">
+                <button onClick={() => setShowAppointmentForm(true)}>
+                    Add New Appointment
+                </button>
+                <button onClick={() => setShowAppointmentForm(false)}>
+                    Check Appointments
+                </button>
+                {showAppointmentForm ? (
+                    <AppointmentForm
+                        setShowAppointmentForm={setShowAppointmentForm}
+                    />
+                ) : (
+                    <ViewAppointments
+                        showAppointmentForm={showAppointmentForm}
+                    />
+                )}
+            </header>
+        </div>
+    );
 }
 
 export default App;

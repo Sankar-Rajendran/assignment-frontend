@@ -1,0 +1,124 @@
+button{
+    background-color: #4695EC;
+    color:white;
+    font-size: 18px;
+    padding:10px;
+    margin:5px 10px;
+}
+
+hr{
+    background: #4695EC;
+    opacity: 0.5;
+}
+.fixed-sm{
+    width:270px;
+}
+
+.flex-1{
+        flex:1;
+    }
+select{
+        height:28px;
+    }
+
+p{
+    margin: 0px;
+    margin-bottom: 3px;
+}
+
+.title{
+    color:#4695EC;
+    font-size: 14px;
+}
+
+.flex-display {
+    display: flex;    
+}
+
+.flex-grow{
+    flex-grow:1;
+}
+.center-align{
+    align-items: center;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.space-evenly{
+    justify-content: space-evenly;
+}
+
+.secondary-btn{
+    background-color: white;
+    height:30px;
+    font-size: 14px;
+    color:black;
+    text-align: center;
+    padding:2px 10px;
+    margin:0px;
+    margin-left:20px;
+}
+
+ .h-100{
+    height:100%;
+}
+
+.w-100{
+    width:100%;
+}
+
+table{
+    width:100%;
+    border-collapse: collapse;    
+}
+
+th{
+    background-color: #4695EC;
+}
+
+td, th {
+  border: 1px solid black;  
+  padding: 8px;
+  text-align: center;
+}
+
+ .ml-10{
+        margin-left:10px;
+    }
+
+    .ml-20{
+        margin-left:10px;
+    }
+
+    .ml-30{
+        margin-left:30px;
+    }
+
+    .mt-20{
+        margin-top:20px;
+    }
+
+    .mt-10{
+        margin-top:10px;
+    }
+
+    .mb-20{
+        margin-bottom: 20px;
+    }
+
+     .error-msg {
+        color:red;
+        margin-top:2px;
+    }
+
+
