@@ -1,6 +1,6 @@
 {
   "name": "assignment",
-  "homepage":"http://sankar-rajendran.github.io/assignment-frontend",
+  "homepage":"https://sankar-rajendran.github.io/assignment-frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
